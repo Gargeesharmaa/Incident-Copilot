@@ -1,0 +1,6 @@
+2026-10-08T01:34:50Z INFO  auth-service service restarted version=v1.22.0 bcrypt_cost=14
+2026-10-08T01:41:02Z WARN  auth-service login handler took 850ms (bcrypt verify)
+2026-10-08T01:47:19Z WARN  auth-service login handler took 1240ms (bcrypt verify)
+2026-10-08T01:55:03Z WARN  auth-service CPU throttling detected on pod auth-7d9f
+2026-10-08T02:02:40Z WARN  auth-service login handler took 1510ms (bcrypt verify)
+2026-10-08T02:10:11Z WARN  auth-service CPU throttling detected on pod auth-4c2a

@@ -1,0 +1,7 @@
+2026-10-08T01:29:58Z INFO  payment-service charge completed charge_id=7712 duration_ms=290
+2026-10-08T01:34:20Z WARN  payment-service slow query 3400ms: SELECT * FROM orders WHERE user_id=? ORDER BY created_at
+2026-10-08T01:41:07Z WARN  payment-service connection pool usage 78% (16/20)
+2026-10-08T01:50:33Z WARN  payment-service slow query 5100ms: SELECT * FROM orders WHERE user_id=? ORDER BY created_at
+2026-10-08T01:58:44Z ERROR payment-service timeout acquiring connection from pool after 5000ms
+2026-10-08T02:03:10Z ERROR payment-service timeout acquiring connection from pool after 5000ms
+2026-10-08T02:08:21Z ERROR payment-service connection pool exhausted (20/20)

@@ -1,0 +1,7 @@
+2026-10-08T01:30:12Z INFO  search-service service restarted version=v5.1.0 index_cache_mb=900
+2026-10-08T01:44:50Z WARN  search-service heap usage 82% of container limit 512Mi
+2026-10-08T01:52:09Z ERROR search-service container killed: OOMKilled (exit code 137)
+2026-10-08T01:52:31Z INFO  search-service pod restarted restart_count=2
+2026-10-08T02:00:05Z ERROR search-service container killed: OOMKilled (exit code 137)
+2026-10-08T02:07:48Z ERROR search-service container killed: OOMKilled (exit code 137)
+2026-10-08T02:13:22Z INFO  search-service pod restarted restart_count=5
