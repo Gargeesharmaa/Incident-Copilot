@@ -1,0 +1,690 @@
+{
+ "service": "payment-service",
+ "interval": "1m",
+ "points": [
+  {
+   "time": "2026-10-08T01:00:00+00:00",
+   "error_rate_pct": 0.24,
+   "latency_p95_ms": 284.03,
+   "cpu_pct": 28.86,
+   "memory_pct": 49.82,
+   "db_pool_pct": 39.61,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:01:00+00:00",
+   "error_rate_pct": 0.16,
+   "latency_p95_ms": 270.18,
+   "cpu_pct": 29.52,
+   "memory_pct": 50.88,
+   "db_pool_pct": 40.71,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:02:00+00:00",
+   "error_rate_pct": 0.28,
+   "latency_p95_ms": 309.24,
+   "cpu_pct": 28.81,
+   "memory_pct": 50.1,
+   "db_pool_pct": 38.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:03:00+00:00",
+   "error_rate_pct": 0.16,
+   "latency_p95_ms": 294.39,
+   "cpu_pct": 30.48,
+   "memory_pct": 50.31,
+   "db_pool_pct": 39.86,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:04:00+00:00",
+   "error_rate_pct": 0.19,
+   "latency_p95_ms": 277.1,
+   "cpu_pct": 29.84,
+   "memory_pct": 50.8,
+   "db_pool_pct": 41.18,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:05:00+00:00",
+   "error_rate_pct": 0.13,
+   "latency_p95_ms": 266.78,
+   "cpu_pct": 30.09,
+   "memory_pct": 50.27,
+   "db_pool_pct": 39.34,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:06:00+00:00",
+   "error_rate_pct": 0.26,
+   "latency_p95_ms": 320.09,
+   "cpu_pct": 31.04,
+   "memory_pct": 49.45,
+   "db_pool_pct": 38.8,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:07:00+00:00",
+   "error_rate_pct": 0.1,
+   "latency_p95_ms": 279.59,
+   "cpu_pct": 29.85,
+   "memory_pct": 50.7,
+   "db_pool_pct": 38.29,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:08:00+00:00",
+   "error_rate_pct": 0.18,
+   "latency_p95_ms": 310.38,
+   "cpu_pct": 28.17,
+   "memory_pct": 50.39,
+   "db_pool_pct": 39.98,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:09:00+00:00",
+   "error_rate_pct": 0.15,
+   "latency_p95_ms": 312.48,
+   "cpu_pct": 27.03,
+   "memory_pct": 50.5,
+   "db_pool_pct": 41.08,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:10:00+00:00",
+   "error_rate_pct": 0.12,
+   "latency_p95_ms": 294.01,
+   "cpu_pct": 28.06,
+   "memory_pct": 50.92,
+   "db_pool_pct": 40.07,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:11:00+00:00",
+   "error_rate_pct": 0.11,
+   "latency_p95_ms": 279.94,
+   "cpu_pct": 32.09,
+   "memory_pct": 49.91,
+   "db_pool_pct": 41.21,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:12:00+00:00",
+   "error_rate_pct": 0.23,
+   "latency_p95_ms": 339.03,
+   "cpu_pct": 30.57,
+   "memory_pct": 50.9,
+   "db_pool_pct": 41.57,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:13:00+00:00",
+   "error_rate_pct": 0.22,
+   "latency_p95_ms": 317.54,
+   "cpu_pct": 30.03,
+   "memory_pct": 50.66,
+   "db_pool_pct": 40.19,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:14:00+00:00",
+   "error_rate_pct": 0.28,
+   "latency_p95_ms": 319.49,
+   "cpu_pct": 29.85,
+   "memory_pct": 49.52,
+   "db_pool_pct": 38.99,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:15:00+00:00",
+   "error_rate_pct": 0.23,
+   "latency_p95_ms": 321.27,
+   "cpu_pct": 30.13,
+   "memory_pct": 50.25,
+   "db_pool_pct": 39.1,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:16:00+00:00",
+   "error_rate_pct": 0.12,
+   "latency_p95_ms": 282.86,
+   "cpu_pct": 28.63,
+   "memory_pct": 49.64,
+   "db_pool_pct": 40.16,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:17:00+00:00",
+   "error_rate_pct": 0.13,
+   "latency_p95_ms": 278.5,
+   "cpu_pct": 31.16,
+   "memory_pct": 50.41,
+   "db_pool_pct": 38.26,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:18:00+00:00",
+   "error_rate_pct": 0.18,
+   "latency_p95_ms": 303.41,
+   "cpu_pct": 29.49,
+   "memory_pct": 49.41,
+   "db_pool_pct": 39.68,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:19:00+00:00",
+   "error_rate_pct": 0.28,
+   "latency_p95_ms": 306.73,
+   "cpu_pct": 31.17,
+   "memory_pct": 50.71,
+   "db_pool_pct": 41.06,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:20:00+00:00",
+   "error_rate_pct": 0.18,
+   "latency_p95_ms": 260.47,
+   "cpu_pct": 29.11,
+   "memory_pct": 50.51,
+   "db_pool_pct": 41.41,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:21:00+00:00",
+   "error_rate_pct": 0.29,
+   "latency_p95_ms": 293.52,
+   "cpu_pct": 31.49,
+   "memory_pct": 50.09,
+   "db_pool_pct": 40.41,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:22:00+00:00",
+   "error_rate_pct": 0.14,
+   "latency_p95_ms": 277.55,
+   "cpu_pct": 29.62,
+   "memory_pct": 49.06,
+   "db_pool_pct": 39.34,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:23:00+00:00",
+   "error_rate_pct": 0.24,
+   "latency_p95_ms": 292.35,
+   "cpu_pct": 27.99,
+   "memory_pct": 49.93,
+   "db_pool_pct": 38.51,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:24:00+00:00",
+   "error_rate_pct": 0.22,
+   "latency_p95_ms": 262.16,
+   "cpu_pct": 29.36,
+   "memory_pct": 50.13,
+   "db_pool_pct": 38.11,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:25:00+00:00",
+   "error_rate_pct": 0.23,
+   "latency_p95_ms": 270.86,
+   "cpu_pct": 29.77,
+   "memory_pct": 49.1,
+   "db_pool_pct": 39.52,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:26:00+00:00",
+   "error_rate_pct": 0.14,
+   "latency_p95_ms": 286.15,
+   "cpu_pct": 31.57,
+   "memory_pct": 49.76,
+   "db_pool_pct": 41.01,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:27:00+00:00",
+   "error_rate_pct": 0.27,
+   "latency_p95_ms": 280.18,
+   "cpu_pct": 27.49,
+   "memory_pct": 49.04,
+   "db_pool_pct": 40.16,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:28:00+00:00",
+   "error_rate_pct": 0.3,
+   "latency_p95_ms": 288.0,
+   "cpu_pct": 30.9,
+   "memory_pct": 50.56,
+   "db_pool_pct": 40.61,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:29:00+00:00",
+   "error_rate_pct": 0.25,
+   "latency_p95_ms": 335.97,
+   "cpu_pct": 28.2,
+   "memory_pct": 49.04,
+   "db_pool_pct": 38.61,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:30:00+00:00",
+   "error_rate_pct": 0.2,
+   "latency_p95_ms": 393.56,
+   "cpu_pct": 30.7,
+   "memory_pct": 49.52,
+   "db_pool_pct": 43.2,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:31:00+00:00",
+   "error_rate_pct": 0.4,
+   "latency_p95_ms": 433.42,
+   "cpu_pct": 31.28,
+   "memory_pct": 50.66,
+   "db_pool_pct": 43.26,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:32:00+00:00",
+   "error_rate_pct": 0.48,
+   "latency_p95_ms": 577.18,
+   "cpu_pct": 28.61,
+   "memory_pct": 49.29,
+   "db_pool_pct": 46.45,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:33:00+00:00",
+   "error_rate_pct": 0.52,
+   "latency_p95_ms": 656.65,
+   "cpu_pct": 30.66,
+   "memory_pct": 50.75,
+   "db_pool_pct": 47.9,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:34:00+00:00",
+   "error_rate_pct": 0.6,
+   "latency_p95_ms": 710.18,
+   "cpu_pct": 29.21,
+   "memory_pct": 50.94,
+   "db_pool_pct": 53.4,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:35:00+00:00",
+   "error_rate_pct": 0.65,
+   "latency_p95_ms": 749.68,
+   "cpu_pct": 34.82,
+   "memory_pct": 51.05,
+   "db_pool_pct": 53.79,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:36:00+00:00",
+   "error_rate_pct": 0.69,
+   "latency_p95_ms": 849.65,
+   "cpu_pct": 32.28,
+   "memory_pct": 50.24,
+   "db_pool_pct": 58.2,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:37:00+00:00",
+   "error_rate_pct": 0.84,
+   "latency_p95_ms": 908.44,
+   "cpu_pct": 35.32,
+   "memory_pct": 50.91,
+   "db_pool_pct": 60.51,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:38:00+00:00",
+   "error_rate_pct": 0.89,
+   "latency_p95_ms": 1014.84,
+   "cpu_pct": 34.28,
+   "memory_pct": 51.65,
+   "db_pool_pct": 60.68,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:39:00+00:00",
+   "error_rate_pct": 0.98,
+   "latency_p95_ms": 1103.05,
+   "cpu_pct": 33.1,
+   "memory_pct": 50.67,
+   "db_pool_pct": 64.92,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:40:00+00:00",
+   "error_rate_pct": 0.95,
+   "latency_p95_ms": 1208.14,
+   "cpu_pct": 35.5,
+   "memory_pct": 50.05,
+   "db_pool_pct": 67.93,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:41:00+00:00",
+   "error_rate_pct": 1.01,
+   "latency_p95_ms": 1257.18,
+   "cpu_pct": 34.5,
+   "memory_pct": 50.72,
+   "db_pool_pct": 66.91,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:42:00+00:00",
+   "error_rate_pct": 1.21,
+   "latency_p95_ms": 1314.55,
+   "cpu_pct": 32.43,
+   "memory_pct": 51.64,
+   "db_pool_pct": 70.56,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:43:00+00:00",
+   "error_rate_pct": 1.28,
+   "latency_p95_ms": 1436.09,
+   "cpu_pct": 33.14,
+   "memory_pct": 50.14,
+   "db_pool_pct": 75.39,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:44:00+00:00",
+   "error_rate_pct": 1.2,
+   "latency_p95_ms": 1517.61,
+   "cpu_pct": 34.73,
+   "memory_pct": 51.72,
+   "db_pool_pct": 76.76,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:45:00+00:00",
+   "error_rate_pct": 1.38,
+   "latency_p95_ms": 1579.27,
+   "cpu_pct": 36.88,
+   "memory_pct": 50.47,
+   "db_pool_pct": 77.29,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:46:00+00:00",
+   "error_rate_pct": 1.46,
+   "latency_p95_ms": 1644.5,
+   "cpu_pct": 35.93,
+   "memory_pct": 51.31,
+   "db_pool_pct": 80.92,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:47:00+00:00",
+   "error_rate_pct": 1.48,
+   "latency_p95_ms": 1759.67,
+   "cpu_pct": 34.74,
+   "memory_pct": 51.85,
+   "db_pool_pct": 82.28,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:48:00+00:00",
+   "error_rate_pct": 1.52,
+   "latency_p95_ms": 1789.65,
+   "cpu_pct": 34.24,
+   "memory_pct": 50.76,
+   "db_pool_pct": 85.74,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:49:00+00:00",
+   "error_rate_pct": 1.69,
+   "latency_p95_ms": 1874.81,
+   "cpu_pct": 34.7,
+   "memory_pct": 51.57,
+   "db_pool_pct": 88.9,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:50:00+00:00",
+   "error_rate_pct": 1.81,
+   "latency_p95_ms": 1981.97,
+   "cpu_pct": 35.42,
+   "memory_pct": 50.88,
+   "db_pool_pct": 89.18,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:51:00+00:00",
+   "error_rate_pct": 1.73,
+   "latency_p95_ms": 2034.36,
+   "cpu_pct": 34.12,
+   "memory_pct": 51.83,
+   "db_pool_pct": 91.9,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:52:00+00:00",
+   "error_rate_pct": 1.95,
+   "latency_p95_ms": 2144.27,
+   "cpu_pct": 38.54,
+   "memory_pct": 51.09,
+   "db_pool_pct": 96.67,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:53:00+00:00",
+   "error_rate_pct": 1.93,
+   "latency_p95_ms": 2249.82,
+   "cpu_pct": 38.12,
+   "memory_pct": 51.86,
+   "db_pool_pct": 97.36,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:54:00+00:00",
+   "error_rate_pct": 1.94,
+   "latency_p95_ms": 2264.11,
+   "cpu_pct": 40.65,
+   "memory_pct": 51.96,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:55:00+00:00",
+   "error_rate_pct": 1.98,
+   "latency_p95_ms": 2265.93,
+   "cpu_pct": 38.78,
+   "memory_pct": 51.11,
+   "db_pool_pct": 98.6,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:56:00+00:00",
+   "error_rate_pct": 2.01,
+   "latency_p95_ms": 2284.31,
+   "cpu_pct": 40.96,
+   "memory_pct": 51.24,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:57:00+00:00",
+   "error_rate_pct": 2.02,
+   "latency_p95_ms": 2323.26,
+   "cpu_pct": 36.35,
+   "memory_pct": 52.05,
+   "db_pool_pct": 99.8,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:58:00+00:00",
+   "error_rate_pct": 1.99,
+   "latency_p95_ms": 2328.81,
+   "cpu_pct": 40.94,
+   "memory_pct": 51.61,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T01:59:00+00:00",
+   "error_rate_pct": 2.02,
+   "latency_p95_ms": 2319.21,
+   "cpu_pct": 40.69,
+   "memory_pct": 51.42,
+   "db_pool_pct": 98.84,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:00:00+00:00",
+   "error_rate_pct": 2.03,
+   "latency_p95_ms": 2272.56,
+   "cpu_pct": 36.04,
+   "memory_pct": 51.15,
+   "db_pool_pct": 98.01,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:01:00+00:00",
+   "error_rate_pct": 1.99,
+   "latency_p95_ms": 2307.5,
+   "cpu_pct": 36.75,
+   "memory_pct": 51.46,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:02:00+00:00",
+   "error_rate_pct": 2.04,
+   "latency_p95_ms": 2296.32,
+   "cpu_pct": 39.12,
+   "memory_pct": 52.85,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:03:00+00:00",
+   "error_rate_pct": 2.03,
+   "latency_p95_ms": 2312.89,
+   "cpu_pct": 40.6,
+   "memory_pct": 51.85,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:04:00+00:00",
+   "error_rate_pct": 2.03,
+   "latency_p95_ms": 2332.67,
+   "cpu_pct": 39.96,
+   "memory_pct": 51.14,
+   "db_pool_pct": 98.66,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:05:00+00:00",
+   "error_rate_pct": 1.96,
+   "latency_p95_ms": 2319.92,
+   "cpu_pct": 38.42,
+   "memory_pct": 51.58,
+   "db_pool_pct": 98.5,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:06:00+00:00",
+   "error_rate_pct": 2.04,
+   "latency_p95_ms": 2315.98,
+   "cpu_pct": 40.66,
+   "memory_pct": 52.0,
+   "db_pool_pct": 99.98,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:07:00+00:00",
+   "error_rate_pct": 1.92,
+   "latency_p95_ms": 2263.19,
+   "cpu_pct": 37.59,
+   "memory_pct": 51.64,
+   "db_pool_pct": 99.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:08:00+00:00",
+   "error_rate_pct": 1.92,
+   "latency_p95_ms": 2336.95,
+   "cpu_pct": 40.02,
+   "memory_pct": 52.15,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:09:00+00:00",
+   "error_rate_pct": 2.1,
+   "latency_p95_ms": 2313.78,
+   "cpu_pct": 36.62,
+   "memory_pct": 51.08,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:10:00+00:00",
+   "error_rate_pct": 1.99,
+   "latency_p95_ms": 2312.12,
+   "cpu_pct": 40.5,
+   "memory_pct": 51.36,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:11:00+00:00",
+   "error_rate_pct": 2.03,
+   "latency_p95_ms": 2299.34,
+   "cpu_pct": 35.55,
+   "memory_pct": 51.7,
+   "db_pool_pct": 99.33,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:12:00+00:00",
+   "error_rate_pct": 2.03,
+   "latency_p95_ms": 2328.62,
+   "cpu_pct": 36.98,
+   "memory_pct": 52.39,
+   "db_pool_pct": 99.15,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:13:00+00:00",
+   "error_rate_pct": 2.09,
+   "latency_p95_ms": 2325.09,
+   "cpu_pct": 38.3,
+   "memory_pct": 51.91,
+   "db_pool_pct": 99.26,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:14:00+00:00",
+   "error_rate_pct": 1.96,
+   "latency_p95_ms": 2337.61,
+   "cpu_pct": 37.43,
+   "memory_pct": 52.03,
+   "db_pool_pct": 100.0,
+   "restarts": 0
+  },
+  {
+   "time": "2026-10-08T02:15:00+00:00",
+   "error_rate_pct": 2.03,
+   "latency_p95_ms": 2303.41,
+   "cpu_pct": 37.48,
+   "memory_pct": 51.38,
+   "db_pool_pct": 99.45,
+   "restarts": 0
+  }
+ ]
+}
