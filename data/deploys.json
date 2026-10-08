@@ -1,0 +1,51 @@
+[
+  {
+    "service": "checkout-service",
+    "version": "v2.14.0",
+    "time": "2026-10-08T01:48:00+00:00",
+    "author": "priya",
+    "summary": "Tune payment gateway client: set timeout to 200ms for faster failover"
+  },
+  {
+    "service": "checkout-service",
+    "version": "v2.13.2",
+    "time": "2026-10-07T10:15:00+00:00",
+    "author": "arjun",
+    "summary": "Fix rounding bug in tax calculation"
+  },
+  {
+    "service": "payment-service",
+    "version": "v3.8.1",
+    "time": "2026-10-06T16:40:00+00:00",
+    "author": "neha",
+    "summary": "Add order history endpoint with per-user query"
+  },
+  {
+    "service": "auth-service",
+    "version": "v1.22.0",
+    "time": "2026-10-08T01:35:00+00:00",
+    "author": "rahul",
+    "summary": "Security hardening: raise bcrypt cost factor from 10 to 14"
+  },
+  {
+    "service": "auth-service",
+    "version": "v1.21.4",
+    "time": "2026-10-03T12:00:00+00:00",
+    "author": "rahul",
+    "summary": "Update login rate limiter"
+  },
+  {
+    "service": "search-service",
+    "version": "v5.1.0",
+    "time": "2026-10-08T01:30:00+00:00",
+    "author": "meera",
+    "summary": "Increase in-memory index cache size from 300MB to 900MB"
+  },
+  {
+    "service": "search-service",
+    "version": "v5.0.7",
+    "time": "2026-10-05T09:20:00+00:00",
+    "author": "meera",
+    "summary": "Improve ranking for exact matches"
+  }
+]
