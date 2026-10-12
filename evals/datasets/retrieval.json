@@ -1,0 +1,33 @@
+[
+  {"cat": "direct", "q": "checkout errors started right after a deployment", "expected": ["high-5xx-error-rate", "pm-001-checkout-bad-config"]},
+  {"cat": "direct", "q": "payment gateway timeout was set too low", "expected": ["pm-001-checkout-bad-config"]},
+  {"cat": "direct", "q": "database connection pool at 100 percent", "expected": ["high-latency", "pm-002-payment-db-pool"]},
+  {"cat": "direct", "q": "slow query without an index holding connections", "expected": ["pm-002-payment-db-pool", "high-latency"]},
+  {"cat": "direct", "q": "pods keep getting OOMKilled", "expected": ["pod-crash-loop", "pm-004-search-memory-leak"]},
+  {"cat": "direct", "q": "memory limit too low after cache size increase", "expected": ["pm-004-search-memory-leak", "pod-crash-loop"]},
+  {"cat": "direct", "q": "CPU jumped after a release while traffic was flat", "expected": ["high-cpu", "pm-003-auth-cpu-hashing"]},
+  {"cat": "direct", "q": "password hashing cost factor raised", "expected": ["pm-003-auth-cpu-hashing"]},
+  {"cat": "direct", "q": "how do I safely roll back a deployment", "expected": ["rollback-procedure"]},
+  {"cat": "direct", "q": "restart count rising and CrashLoopBackOff", "expected": ["pod-crash-loop"]},
+  {"cat": "direct", "q": "errors persist after rollback who do I page", "expected": ["high-5xx-error-rate"]},
+  {"cat": "direct", "q": "p95 latency far above threshold with timeouts", "expected": ["high-latency"]},
+
+  {"cat": "paraphrase", "q": "customers cannot pay and the gateway keeps timing out", "expected": ["pm-001-checkout-bad-config", "high-5xx-error-rate"]},
+  {"cat": "paraphrase", "q": "queries are waiting for a free database connection", "expected": ["high-latency", "pm-002-payment-db-pool"]},
+  {"cat": "paraphrase", "q": "login is slow and the servers are maxed out", "expected": ["high-cpu", "pm-003-auth-cpu-hashing"]},
+  {"cat": "paraphrase", "q": "container keeps getting killed for using too much RAM", "expected": ["pod-crash-loop", "pm-004-search-memory-leak"]},
+  {"cat": "paraphrase", "q": "undo the last release", "expected": ["rollback-procedure"]},
+  {"cat": "paraphrase", "q": "what should I check first when the error rate spikes", "expected": ["high-5xx-error-rate"]},
+  {"cat": "paraphrase", "q": "is it safe to revert a database migration", "expected": ["rollback-procedure"]},
+  {"cat": "paraphrase", "q": "the service restarts every few minutes", "expected": ["pod-crash-loop", "pm-004-search-memory-leak"]},
+
+  {"cat": "alert_style", "q": "checkout-service High 5xx error rate value 8% threshold 5%", "expected": ["high-5xx-error-rate", "pm-001-checkout-bad-config"]},
+  {"cat": "alert_style", "q": "payment-service High latency p95 value 2300ms threshold 800ms", "expected": ["high-latency", "pm-002-payment-db-pool"]},
+  {"cat": "alert_style", "q": "auth-service CPU usage high value 93% threshold 80%", "expected": ["high-cpu", "pm-003-auth-cpu-hashing"]},
+  {"cat": "alert_style", "q": "search-service Pod crash looping value 5 restarts threshold 3 restarts", "expected": ["pod-crash-loop", "pm-004-search-memory-leak"]},
+
+  {"cat": "hard", "q": "latency is high and cpu is also high", "expected": ["high-latency", "high-cpu"]},
+  {"cat": "hard", "q": "errors after a deploy but the database also looks slow", "expected": ["high-5xx-error-rate", "high-latency", "pm-001-checkout-bad-config", "pm-002-payment-db-pool"]},
+  {"cat": "hard", "q": "what did we learn from the last memory incident", "expected": ["pm-004-search-memory-leak"]},
+  {"cat": "hard", "q": "follow-up actions after the hashing incident", "expected": ["pm-003-auth-cpu-hashing"]}
+]
