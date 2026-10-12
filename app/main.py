@@ -8,6 +8,7 @@ from app.rag.retriever import search as rag_search
 
 from app.db import Base, engine, get_db
 from app.models import AlertRecord, Incident
+from app.rag.answer import answer_question
 
 
 with engine.begin() as conn:
@@ -145,3 +146,7 @@ def list_alerts(db: Session = Depends(get_db)):
 @app.get("/search")
 def search_knowledge(q: str, k: int = 4, doc_type: str | None = None, db: Session = Depends(get_db)):
     return rag_search(db, q, k=k, doc_type=doc_type)
+
+@app.get("/ask")
+def ask(q: str, k: int = 4, db: Session = Depends(get_db)):
+    return answer_question(db, q, k=k)
