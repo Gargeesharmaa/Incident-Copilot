@@ -150,3 +150,18 @@ def search_knowledge(q: str, k: int = 4, doc_type: str | None = None, db: Sessio
 @app.get("/ask")
 def ask(q: str, k: int = 4, db: Session = Depends(get_db)):
     return answer_question(db, q, k=k)
+
+@app.get("/incidents/{incident_id}/suggest")
+def suggest_for_incident(incident_id: int, db: Session = Depends(get_db)):
+    incident = db.get(Incident, incident_id)
+    if not incident:
+        raise HTTPException(status_code=404, detail="Incident not found")
+
+    query = f"{incident.service} {incident.title}"
+    if incident.alerts:
+        last = max(incident.alerts, key=lambda a: a.id)
+        query += f" (value {last.value}, threshold {last.threshold})"
+
+    result = answer_question(db, query)
+    result["query_used"] = query
+    return result
