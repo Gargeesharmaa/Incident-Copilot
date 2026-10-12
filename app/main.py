@@ -2,12 +2,16 @@ from datetime import datetime, timedelta, timezone
 
 from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel
-from sqlalchemy import select
+from sqlalchemy import select, text
 from sqlalchemy.orm import Session
+from app.rag.retriever import search as rag_search
 
 from app.db import Base, engine, get_db
 from app.models import AlertRecord, Incident
 
+
+with engine.begin() as conn:
+    conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Incident Copilot")
@@ -137,3 +141,7 @@ def list_alerts(db: Session = Depends(get_db)):
         }
         for r in rows
     ]
+
+@app.get("/search")
+def search_knowledge(q: str, k: int = 4, doc_type: str | None = None, db: Session = Depends(get_db)):
+    return rag_search(db, q, k=k, doc_type=doc_type)
